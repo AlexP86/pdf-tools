@@ -228,7 +228,7 @@ const PDFUploader: React.FC = () => {
             {warning && <Alert severity="warning" sx={{ whiteSpace: 'pre-line' }}>{warning}</Alert>}
 
             <Typography variant="body2" color="text.secondary" align="center">
-                Your files stay private and never leaves your browser.
+                Your files stay private and never leave your browser.
             </Typography>
         </Stack>
     );

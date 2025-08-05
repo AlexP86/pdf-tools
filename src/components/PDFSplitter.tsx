@@ -188,7 +188,7 @@ const PDFSplitter: React.FC = () => {
             )}
 
             <Typography variant="body2" color="text.secondary" align="center">
-                Your files stay private and never leaves your browser.
+                Your files stay private and never leave your browser.
             </Typography>
         </Stack>
     );
