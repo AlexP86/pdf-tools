@@ -1,7 +1,7 @@
 {
   "name": "merge-pdf-app",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "homepage": "https://AlexP86.github.io/pdf-tools",
   "type": "module",
   "scripts": {
