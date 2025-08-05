@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Container, Paper, Tabs, Tab, Box, Typography, Button } from '@mui/material';
+import { Container, Paper, Tabs, Tab, Box, Typography } from '@mui/material';
 import PDFUploader from './components/PDFUploader';
 import PDFSplitter from './components/PDFSplitter';
 
@@ -21,23 +21,6 @@ function App() {
                     {tab === 1 && <PDFSplitter />}
                 </Box>
             </Paper>
-
-            <Box sx={{ textAlign: 'center', mt: 4 }}>
-                <Typography variant="body2" color="text.secondary">
-                    Made with ❤️ &nbsp;|&nbsp;
-                    <Button
-                        href="https://ko-fi.com/aleksandarpaunovic"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        size="small"
-                        variant="contained"
-                        color="success"
-                        sx={{ ml: 1 }}
-                    >
-                        Donate
-                    </Button>
-                </Typography>
-            </Box>
         </Container>
     );
 }
